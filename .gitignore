@@ -10,3 +10,10 @@
 *.lai
 *.la
 *.a
+
+Makefile*
+*.pro.user
+debug/*
+release/*
+*.Debug
+*.Release
