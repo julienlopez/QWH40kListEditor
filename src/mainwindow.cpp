@@ -25,6 +25,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     Armee necrons("Nécrons");
     Unit warriors("Guerriers nécrons", 5, 20, 13);
+    warriors.setAttributes(4,4,4,4,1,2,1,10,4);
     necrons.addTroop(warriors);
     m_armees.insert(necrons);
     /*

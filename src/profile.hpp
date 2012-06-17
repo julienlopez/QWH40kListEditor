@@ -30,6 +30,8 @@ public:
     void setLd(quint8 ld);
     void setSv(quint8 sv);
 
+    void setAttributes(quint8 ws, quint8 bs, quint8 s, quint8 t, quint8 w, quint8 i, quint8 a, quint8 ld, quint8 sv);
+
 private:
     quint8 m_stats[9];
 };

@@ -92,3 +92,16 @@ void Profile::setSv(quint8 sv)
 {
     m_stats[SV] = sv;
 }
+
+void Profile::setAttributes(quint8 ws, quint8 bs, quint8 s, quint8 t, quint8 w, quint8 i, quint8 a, quint8 ld, quint8 sv)
+{
+    m_stats[WS] = ws;
+    m_stats[BS] = bs;
+    m_stats[S] = s;
+    m_stats[T] = t;
+    m_stats[W] = w;
+    m_stats[I] = i;
+    m_stats[A] = a;
+    m_stats[LD] = ld;
+    m_stats[SV] = sv;
+}
